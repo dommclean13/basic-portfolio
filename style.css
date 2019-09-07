@@ -118,10 +118,34 @@ img.pic {
 	height: 200px;
 }
 
+/* PortfolioPage */
+
+.portfolio-item {
+	display: inline-block;
+	position: relative;
+	width: 270px;
+	height: 200px;
+	margin:10px;
+	float:right;
+	
+}
+
+.item-name {
+	position: relative;
+	top: -100px;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 1em;
+	color: #ffffff;
+	z-index: 1000;
+	opacity: 0.6;
+}
+
+
 
 
 footer {
-	position: absolute;
+	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -131,4 +155,5 @@ footer {
 	color: #cccccc;
 	background-color: #666666;
 	border-top: 7px solid #4aaaa5;
+
 }
